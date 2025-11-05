@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Orchard Planner GPT",
+  "description": "An interactive prototype for an AI-powered orchard management application, providing task management, a field log, and a Gemini-powered assistant to help growers make data-driven decisions.",
+  "requestFramePermissions": []
+}
