@@ -21,7 +21,7 @@ This is a static web application built with React and Tailwind CSS, designed to 
 2.  Simply navigate to the live hosted link below to view and interact with the prototype.
 
 **Live Hosted Link:**
-- **[https://babiryegrace20.github.io/OrchardPlanner-GPT-GenAI/](https://babiryegrace20.github.io/OrchardPlanner-GPT-GenAI/)** *(Note: Replace with your actual GitHub Pages link after deployment.)*
+- **[https://ai.studio/apps/drive/1f91K7T00wdlckLMQ59-jEpz0piqpURkl]**
 
 ## Use of AI in this Project
 
