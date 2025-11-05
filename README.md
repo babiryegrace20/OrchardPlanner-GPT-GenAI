@@ -12,16 +12,18 @@ It achieves this by providing simple-to-use tools for orchard management, includ
 
 By analyzing user-logged data and live weather information, the app provides simple, actionable advice on pest control, irrigation, and yield prediction, helping growers save time, reduce costs, and prevent crop loss.
 
-## Viewing the Project
+## Hosting on GitHub Pages
 
-This is a static web application built with React and Tailwind CSS, designed to be hosted directly on the web.
+This project is configured to run directly on static hosting services like GitHub Pages without needing a separate build step.
+Live Project Link: https://babiryegrace20.github.io/OrchardPlanner-GPT-GenAI/
 
 **Instructions:**
-1.  No local installation is required.
-2.  Simply navigate to the live hosted link below to view and interact with the prototype.
-
-**Live Hosted Link:**
-- **[https://ai.studio/apps/drive/1f91K7T00wdlckLMQ59-jEpz0piqpURkl]**
+1.  Create a new repository on GitHub.
+2.  Upload all the project files (`index.html`, `index.tsx`, `components/`, etc.) to the repository.
+3.  In your repository's settings, navigate to the "Pages" section (under "Code and automation").
+4.  Under "Build and deployment", select "Deploy from a branch" as the source.
+5.  Choose the branch you want to deploy from (usually `main`) and the `/(root)` folder, then save.
+6.  GitHub will build and deploy your site. The live URL will be provided in the Pages settings section, typically in the format `https://<your-username>.github.io/<your-repository-name>/`.
 
 ## Use of AI in this Project
 
