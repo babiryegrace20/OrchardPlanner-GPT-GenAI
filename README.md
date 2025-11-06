@@ -12,18 +12,11 @@ It achieves this by providing simple-to-use tools for orchard management, includ
 
 By analyzing user-logged data and live weather information, the app provides simple, actionable advice on pest control, irrigation, and yield prediction, helping growers save time, reduce costs, and prevent crop loss.
 
-## Hosting on GitHub Pages
+## Viewing the Project
 
-This project is configured to run directly on static hosting services like GitHub Pages without needing a separate build step.
-Live Project Link: https://babiryegrace20.github.io/OrchardPlanner-GPT-GenAI/
+This project is a static web application that can be viewed directly in the browser. You can view the live prototype via the preview link provided in Google AI Studio.
 
-**Instructions:**
-1.  Create a new repository on GitHub.
-2.  Upload all the project files (`index.html`, `index.tsx`, `components/`, etc.) to the repository.
-3.  In your repository's settings, navigate to the "Pages" section (under "Code and automation").
-4.  Under "Build and deployment", select "Deploy from a branch" as the source.
-5.  Choose the branch you want to deploy from (usually `main`) and the `/(root)` folder, then save.
-6.  GitHub will build and deploy your site. The live URL will be provided in the Pages settings section, typically in the format `https://<your-username>.github.io/<your-repository-name>/`.
+**Live Project Link:** [https://ai.studio/apps/drive/1f91K7T00wdlckLMQ59-jEpz0piqpURkl]
 
 ## Use of AI in this Project
 
