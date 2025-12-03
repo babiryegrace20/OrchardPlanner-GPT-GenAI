@@ -1,12 +1,14 @@
 # Implementation & Ethics Memo
 
 **To:** Emelia Hughes (Generative AI Professor)
+
 **From:** Grace Babirye (Generative AI Student)
+
 **Subject:** Building Orchard Planner GPT – AI Implementation & Ethical Considerations
 
 ### 1. How I Used AI While Building
 
-During the development of Orchard Planner GPT, I leveraged AI not just as a feature within the app, but as a core part of the engineering workflow. I utilized Google AI Studio and the Gemini models to accelerate the initial scaffolding of the React application. Specifically, I used "vibe coding" techniques—iteratively describing the desired look and feel—to generate the Tailwind CSS classes that give the application its distinct "organic/agricultural" aesthetic (greens, browns, and clean surfaces).
+During the development of Orchard Planner GPT, I leveraged AI not just as a feature within the app, but as a core part of the engineering workflow. I utilized Google AI Studio and the Gemini models to accelerate the initial scaffolding of the React application. Specifically, I used "vibe coding" techniques—iteratively describing the desired look and feel, to generate the Tailwind CSS classes that give the application its distinct "organic/agricultural" aesthetic (greens, browns, and clean surfaces).
 
 For the logic, AI was instrumental in debugging TypeScript interfaces. When defining the data structures for `Tasks` and `Alerts`, I used AI to ensure my types were consistent across the `App.tsx` state management and the component props.
 

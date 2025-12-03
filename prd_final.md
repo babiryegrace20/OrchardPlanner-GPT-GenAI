@@ -1,13 +1,15 @@
 # Product Requirements Document (Final)
 
 **Project:** Orchard Planner GPT
+
 **Date:** December 05 2025
+
 **Version:** 2.0 (Final Prototype Specification)
 
 ## 1. Product Overview
 
 **Problem Statement**
-Small-scale orchard owners (5-100 acres) and hobbyists often lack access to affordable, expert agronomic advice. This leads to a reactive management style—treating pests or diseases only after significant damage has occurred—resulting in preventable crop loss and excessive chemical usage.
+Small-scale orchard owners (5-100 acres) and hobbyists often lack access to affordable, expert agronomic advice. This leads to a reactive management style of treating pests or diseases only after significant damage has occurred which results in preventable crop loss and excessive chemical usage.
 
 **Target Audience**
 The primary users are community orchard managers, hobbyist fruit growers, and small commercial farmers who need to manage daily tasks and monitor crop health but cannot justify the cost of enterprise agricultural software or full-time consultants.
@@ -19,14 +21,14 @@ Orchard Planner GPT is a functional, mobile-first web application prototype. It 
 
 | Feature | Description | Status | AI Dependency |
 | :--- | :--- | :--- | :--- |
-| **Dashboard** | A centralized view displaying daily weather (mocked), high-priority tasks, and the latest critical alert. | **Implemented** | Conventional |
+| **Dashboard** | A centralized view displaying daily weather, high-priority tasks, and the latest critical alert. | **Implemented** | Conventional |
 | **Task Manager** | A full CRUD interface allowing users to add, prioritize, and complete orchard tasks. | **Implemented** | Conventional |
 | **Field Log** | A structured input form for recording text-based scouting observations. | **Implemented** | **AI Trigger** |
 | **AI Alerts** | Analyses field logs against weather context to generate risk levels and actionable recommendations. | **Implemented** | **High** |
 | **AI Assistant** | A conversational chat interface for general horticultural questions and advice. | **Implemented** | **High** |
 | **Weather Widget** | Displays current temperature and conditions to provide context for decision-making. | **Implemented** (Mock Data) | Conventional |
 
-## 3. AI Specification (Final)
+## 3. AI Specification
 
 The application leverages the **Google Gemini API** (specifically `gemini-2.5-flash`) to power two distinct features.
 
@@ -52,7 +54,7 @@ The application leverages the **Google Gemini API** (specifically `gemini-2.5-fl
 *   **Outputs:** Unstructured natural language text.
 *   **Constraints:** The system prompt constrains the persona to be "concise, clear, and actionable" and mandates a disclaimer to "consult local extension offices" for high-stakes decisions.
 
-## 4. Technical Architecture (Reality Check)
+## 4. Technical Architecture
 
 The prototype is built as a client-side Single Page Application (SPA).
 
@@ -83,7 +85,6 @@ The "vibe coding" process involved iterative tuning of the System Instructions t
 4.  **Action:** The user clicks the alert, reads the recommendation, and adds a corresponding task to the **Task Manager**.
 
 **Limitations:**
-*   **Data Loss:** As a frontend-only prototype, all data is lost upon refreshing the browser.
 *   **Mock Weather:** The AI analysis relies on hardcoded weather strings, meaning real-time accuracy is currently simulated.
 *   **Connectivity:** The AI features require an active internet connection to query the Gemini API.
 
@@ -96,5 +97,5 @@ If significantly more time were available, the following would be prioritized:
 
 1.  **Live Weather API Integration:** Replace mock data with OpenWeatherMap or similar to provide hyper-local, real-time context for the AI analysis.
 2.  **Multimodal Diagnostics:** Enable image upload in the Field Log. Using Gemini's vision capabilities, users could snap a photo of a leaf, and the AI would identify the specific pathology (e.g., Apple Scab vs. Powdery Mildew).
-3.  **Backend & Auth:** Implement Firebase or Supabase to store user logs and learn from historical data, enabling trend analysis (e.g., "You always get mildew in Block B in June").
+3.  **Backend & Auth:** Implement Firebase to store user logs and learn from historical data, enabling trend analysis (e.g., "You always get mildew in Block B in June").
 4.  **Offline Mode:** Implement PWA capabilities to allow logging data while deep in the orchard without signal, syncing when connectivity is restored.
