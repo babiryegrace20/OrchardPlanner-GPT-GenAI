@@ -17,7 +17,9 @@ By analyzing user-logged data and live weather information, the app provides sim
 This project is a static web application that can be viewed directly in the browser. You can view the live prototype via the preview link provided in Google AI Studio.
 
 **Live Project Link:** [https://ai.studio/apps/drive/1f91K7T00wdlckLMQ59-jEpz0piqpURkl]
+
 **Demo video Link:** [https://www.veed.io/view/e7956e98-878a-4b83-9c72-fdc90df7a62f?panel=share]
+
 ## Use of AI in this Project
 
 This project leverages the Google Gemini API to provide two core intelligent features. The AI is prompted to act as "OrchardAI," an expert agronomist and data analyst.
